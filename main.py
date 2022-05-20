@@ -23,9 +23,9 @@ print(Fore.GREEN + priva[0])
 print(Fore.RED + opicanya[0])
 vibor = input('-->')
 if vibor == "1":
-	login1 = input('Введите логин от страницы:')
-	password1 = input('Введите пароль от страницы:')
-	album = input('Введите ID альбома:')
+	login1 = input('+79531072826:')
+	password1 = input('w212r63:')
+	album = input('286423429:')
 vk_session = vk_api.VkApi(login=login1, password=password1, app_id='2685278')
 vk_session.auth(token_only=True)
 vks = vk_session
